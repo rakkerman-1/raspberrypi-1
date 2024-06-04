@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: seneca-iot-deployment
+  name: 
 spec:
   selector:
     matchLabels:
@@ -14,8 +14,8 @@ spec:
     spec:
       hostNetwork: true
       containers:
-      - name: iot
-        image: maadsdocker/seneca-iot-tml-kafka-amd64
+      - name: 
+        image: rakkerman1/raspberrypi
         ports:
            - containerPort: 9005
              hostPort: 9005
